@@ -1,6 +1,6 @@
 Итоговый проект по разделу «Автоматизация тестирования»
 
-**Готовые тест-кейсы и найденные баги [тут](https://docs.google.com/spreadsheets/d/1YGowteOqKqR1prQ2_wsXgLfDN4-_XzQ2tt0kazGbQi4/edit?usp=sharing)**
+**Готовые тест-кейсы и баг-репорты [тут](https://docs.google.com/spreadsheets/d/1YGowteOqKqR1prQ2_wsXgLfDN4-_XzQ2tt0kazGbQi4/edit?usp=sharing)**
 
 - Объект тестирования: [https://b2c.passport.rt.ru/](https://b2c.passport.rt.ru/)
 - Требования у проекту: [Требования](https://lms.skillfactory.ru/assets/courseware/v1/f78e146f0eb3ace247a28b07e66467de/asset-v1:SkillFactory+INTQAP+2022+type@asset+block/%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_SSO_%D0%B4%D0%BB%D1%8F_%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_last.doc)
@@ -33,7 +33,6 @@
 
 Основная директория "28" содержит:
 Требования_SSO_для_тестирования.docx - требования по проекту 
-ТестированиеB2CRT.xlsx - тест кейсы ручного тестирования и баг-репорт.
 README.md - содержит информацию о проекте.
 В корневом каталоге проекта содержатся:
 
@@ -69,7 +68,7 @@ python3 -m pytest -v --driver Chrome --driver-path /driver/chromedriver tests/te
 3. Для тестов страницы восстановления пароля:
 python3 -m pytest -v --driver Chrome --driver-path /driver/chromedriver tests/test_reset_page.py
 
-**Готовые тест-кейсы и найденные баги [тут](https://docs.google.com/spreadsheets/d/1YGowteOqKqR1prQ2_wsXgLfDN4-_XzQ2tt0kazGbQi4/edit?usp=sharing)**
+**Готовые тест-кейсы и баг-репорты [тут](https://docs.google.com/spreadsheets/d/1YGowteOqKqR1prQ2_wsXgLfDN4-_XzQ2tt0kazGbQi4/edit?usp=sharing)**
 
 Прописанные тесты нестабильны, запускать следует в отображаемом графическом режиме chromedriver
 Для включения драйвера в фоном режиме , в файле conftest.py расскоментировать параметр опций драйвера ("--headless")
